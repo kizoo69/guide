@@ -1,0 +1,34 @@
+#!/bin/sh
+# Install git hooks from .ai/hooks/ into the repo and all submodules.
+# Run from the project root: .ai/hooks/install
+
+root=$(git rev-parse --show-toplevel) || exit 1
+src="$root/.ai/hooks"
+
+copy_hooks() {
+    dest=$1
+    for hook in "$src"/*; do
+        name=$(basename "$hook")
+        [ "$name" = "install" ] && continue
+        [ ! -f "$hook" ] && continue
+        cp "$hook" "$dest/$name"
+        chmod +x "$dest/$name"
+    done
+}
+
+# Parent repo
+copy_hooks "$root/.git/hooks"
+
+# Submodules
+git submodule foreach --quiet "
+    dest=\$(git rev-parse --git-dir)/hooks
+    for hook in \"$src\"/*; do
+        name=\$(basename \"\$hook\")
+        [ \"\$name\" = \"install\" ] && continue
+        [ ! -f \"\$hook\" ] && continue
+        cp \"\$hook\" \"\$dest/\$name\"
+        chmod +x \"\$dest/\$name\"
+    done
+"
+
+echo "Hooks installed."
