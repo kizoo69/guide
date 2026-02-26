@@ -22,7 +22,6 @@ After cloning, or after the `.ai` submodule is initialized/updated, always run b
 ```sh
 git submodule update --init --remote .ai  # if submodule is empty
 .ai/hooks/install
-git-config-local-default
 ```
 
 These are mandatory and easy to forget — run them proactively.
