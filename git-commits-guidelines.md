@@ -15,10 +15,14 @@ When a task is complete, commit and push all changes without being asked.
 2. Group related files into logical commits (e.g., new content, deletions, updates each as separate commits).
 3. Push after all commits are done.
 
-## Git Hooks
+## Repo Setup (run automatically, without being asked)
 
-Canonical hooks live in `.ai/hooks/`. After cloning or resetting the repo, run:
+After cloning, or after the `.ai` submodule is initialized/updated, always run both:
 
 ```sh
+git submodule update --init --remote .ai  # if submodule is empty
 .ai/hooks/install
+git-config-local-default
 ```
+
+These are mandatory and easy to forget — run them proactively.
