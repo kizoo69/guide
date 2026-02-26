@@ -32,3 +32,9 @@ git submodule foreach --quiet "
 "
 
 echo "Hooks installed."
+
+# Apply local git config defaults if the script is available
+if command -v git-config-local-default >/dev/null 2>&1; then
+    git-config-local-default
+    git submodule foreach --quiet 'git-config-local-default'
+fi
