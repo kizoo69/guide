@@ -14,11 +14,3 @@ When a task is complete, commit and push all changes without being asked.
 1. `git status` to review all changed files.
 2. Group related files into logical commits (e.g., new content, deletions, updates each as separate commits).
 3. Push after all commits are done.
-
-## Git Hooks
-
-Canonical hooks live in `.ai/hooks/`. After cloning or resetting the repo, run:
-
-```sh
-.ai/hooks/install
-```
