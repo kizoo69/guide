@@ -24,6 +24,9 @@ This file provides guidance to the AI assistant when working with code in this r
 ## Git Commits
 **MANDATORY**: Read [.ai/git-commits-guidelines.md](.ai/git-commits-guidelines.md) before making any commits.
 
+## Workflow & Planning
+**MANDATORY**: Read [.ai/workflow-guidelines.md](.ai/workflow-guidelines.md) before starting any research, planning, or implementation task.
+
 ## Documentation
 **MANDATORY**: Read [.ai/technical-writing-guidelines.md](.ai/technical-writing-guidelines.md) before writing Korean documentation.
 
