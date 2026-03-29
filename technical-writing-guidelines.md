@@ -89,9 +89,6 @@ When writing technical documentation in Korean for this site, follow these langu
 - **Avoid progressive tense when simple present works**:
   - [Wrong] "길어지고 있어요", "복잡해지고 있어요"
   - [Right] "길어요", "복잡해요"
-- **Prefer concrete descriptions over abstract function names**:
-  - [Wrong] "텍스트를 돌려주는", "값을 반환하는"
-  - [Right] "파일 이름 주고 파일 속 text를 받는", "이름 넣으면 값 나오는"
 
 - **Avoid Emoticons and Icons**: Do not use emoticons (e.g., rocket, snake, sparkles) or unnecessary special characters in titles, headers, or lists.
   - [Wrong] "## 🚀 A Quick Start"

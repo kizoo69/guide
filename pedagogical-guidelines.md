@@ -104,3 +104,4 @@ Workbook을 만들거나 고칠 때 아래를 확인한다:
 - [ ] scaffolding이 뒤로 갈수록 줄어드는가?
 - [ ] 앞 workbook 개념을 다시 꺼내는 spacing이 있는가?
 - [ ] `technical-writing-guidelines.md` 용어 규칙을 지키는가?
+- [ ] ensure workbooks are independent of hidden reference code, guiding the user to rely on and build their own code.
