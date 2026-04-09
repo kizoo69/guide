@@ -86,8 +86,8 @@ When writing technical documentation in Korean for this site, follow these langu
   - [Wrong] "놀랍게도", "흥미롭게도", "중요한 점은", "사실상" 등.
   - [Right] Just state the fact directly
 - **Use simple words**: When context is clear, prefer everyday words over formal terms
-  - [Wrong] "변환하다", "수행하다", "활용하다", "추가하다"
-  - [Right] "바꾸다", "하다", "쓰다", "더하다"
+  - [Wrong] "변환하다", "수행하다", "활용하다", "추가하다", "통합하다"
+  - [Right] "바꾸다", "하다", "쓰다", "더하다", "묶다", "엮다", "짜다"
 - **Avoid progressive tense when simple present works**:
   - [Wrong] "길어지고 있어요", "복잡해지고 있어요"
   - [Right] "길어요", "복잡해요"
