@@ -5,10 +5,12 @@ When writing technical documentation in Korean for this site, follow these langu
 ### Terminology Standards
 
 1. **Use Original English Terms Instead of Korean Transliterations**
-   - [Correct]: browser, CSS, JavaScript, API, cache, table, class, annotation
-   - [Wrong]: 브라우저 (beuraujeo), 클래스 (keullaeseu), 테이블 (teibeul), 애노테이션 (aenoteisyeon)
    - Principle: Korean phonetic transcriptions don't aid comprehension; use the original English term
-
+   - [Correct]: CSS, JavaScript, API, cache, class, annotation
+   - [Wrong]: 클래스 (keullaeseu), 애노테이션 (aenoteisyeon)
+   - **초중등 교육과정의 기초 학술 용어(수학/과학)는 관례적 한국어 표현을 허용함**
+      - [허용]: 벡터(vector), 행렬(matrix), 내적(inner product), 차원(dimension), 분포(distribution), 함수(function), 변수(variable), 정수(integer), 실수(real number), 회전(rotation), 격자(grid), 오차(error)
+    - [설명]: 공교육을 통해 개념이 정착된 용어는 한국어로 기술하는 것이 직관적 이해에 유리함. 단, 최초 등장 시 필요한 경우 side note를 활용하여 원어를 병기할 수 있음.     
 2. **Use Natural Korean Instead of Obscure Chinese-Derived Terms**
    - [Correct]: "마음대로 정할" (not "임의로 지정할")
    - [Avoid]: 재귀(호출), 객체, 개체, 객체 지향, 상속, 명령줄, 기민, 예외 - these Chinese-based terms obscure meaning
@@ -17,7 +19,7 @@ When writing technical documentation in Korean for this site, follow these langu
    - floating point는 "부동소수점"으로 옮기지 말고 그냥 floating point로 쓰기 ("부동"이 "움직이지 않는다"로 오해될 수 있음)
 
 3. **Context-Dependent Technical Terms**
-   - **Established loan words**: 웹 (web), 파일 (file) - already part of Korean
+   - **Established loan words**: 웹 (web), 파일 (file), 브라우저(browser) 등 - already part of Korean
    - **Proper translations**: 글꼴 (font) - use "웹 글꼴" not "웹 폰트", "글꼴 파일" not "font file"
    - **Mathematical terms**: 함수 (function), 변수 (variable) - acceptable when used in mathematical context
      - When first using such terms, explain your choice in a side note (margin note or footnote)
@@ -81,7 +83,7 @@ When writing technical documentation in Korean for this site, follow these langu
   - [Wrong] "주어진 text 다음에"
   - [Right] "text 다음에"
 - **Avoid filler phrases**: Remove unnecessary commentary that doesn't aid understanding
-  - [Wrong] "놀랍도록 단순하다", "흥미롭게도", "중요한 점은"
+  - [Wrong] "놀랍게도", "흥미롭게도", "중요한 점은", "사실상" 등.
   - [Right] Just state the fact directly
 - **Use simple words**: When context is clear, prefer everyday words over formal terms
   - [Wrong] "변환하다", "수행하다", "활용하다", "추가하다"
@@ -94,18 +96,3 @@ When writing technical documentation in Korean for this site, follow these langu
   - [Wrong] "## 🚀 A Quick Start"
   - [Right] "## A Quick Start"
 
-### Example
-
-**Good**:
-```markdown
-CSS `@font-face`에서 `font-family` 이름을 마음대로 정할 수 있다고 알고 있었다.
-하지만 browser에서 이 글꼴이 먹히지 않았다. `ttx` tool로 글꼴 파일의 name table을
-뒤져봤더니, 속 이름이 'ChosunilboNM'이었다.
-```
-
-**Avoid**:
-```markdown
-CSS 앳 폰트 페이스에서 폰트 패밀리 이름을 임의로 지정할 수 있다고 알고 있었다.
-하지만 브라우저에서 이 폰트가 적용되지 않았다. 티티엑스 툴로 폰트 파일의 네임 테이블을
-확인한 결과, 내부 이름이 'ChosunilboNM'으로 되어 있었다.
-```
