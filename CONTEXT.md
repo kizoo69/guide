@@ -1,34 +1,30 @@
 # CONTEXT.md
 
-This file provides guidance to the AI assistant when working with code in this repository.
+AI guidance for this repository.
 
-1. After writing code, list what could break and suggest tests to cover it.
+## Operational Rules
+1. After coding, list risks and suggest tests.
+2. Fix until tests pass.
+3. Add a new rule to `CLAUDE.md` upon every correction.
+4. Keep answers < 3 lines (excluding code).
 
-2. If the test fail, then fix it until the test passes.
+## Mandatory Reading (Job-Specific)
+- [Java Defaults](java-project-defaults.md)
+- [Git Commits](git-commits-guidelines.md)
+- [Workflow & Planning](workflow-guidelines.md)
+- [Korean Docs](technical-writing-guidelines.md)
+- [Code Review](code-review-guidelines.md)
+- [Workbook Creation Rules](workbook-creation-rules.md)
+- [Shell Scripting](shell-scripting-guidelines.md)
 
-3. Every time I correct you, add a new rule to the CLAUDE.md file so it never happens again.
+## Coding Standards
 
-4. Keep answers short and concise (hopefully, under 3 lines excluding code blocks).
+### Philosophy
+- **"No News is Good News"**: Silent on success; verbose on errors.
+- **Defensive**: Early condition checks.
 
-5. Follow the job-specific guidelines below.
-
-## Java Project Defaults
-**MANDATORY**: Read [.ai/java-project-defaults.md](.ai/java-project-defaults.md) before creating/migrating any Java Projects.
-
-## Git Commits
-**MANDATORY**: Read [.ai/git-commits-guidelines.md](.ai/git-commits-guidelines.md) before making any commits.
-
-## Workflow & Planning
-**MANDATORY**: Read [.ai/workflow-guidelines.md](.ai/workflow-guidelines.md) before starting any research, planning, or implementation task.
-
-## Documentation
-**MANDATORY**: Read [.ai/technical-writing-guidelines.md](.ai/technical-writing-guidelines.md) before writing Korean documentation.
-
-## Code Review
-**MANDATORY**: Read [.ai/code-review-guidelines.md](.ai/code-review-guidelines.md) before reviewing any code.
-
-## Workbook 교수 설계
-**MANDATORY**: [.ai/workbook-creation-rules.md](.ai/workbook-creation-rules.md) before creating or reviewing workbooks.
-
-## Shell Scripting
-**MANDATORY**: Read [.ai/shell-scripting-guidelines.md](.ai/shell-scripting-guidelines.md) before writing or modifying shell scripts.
+### Patterns
+- **Operators**: Prefer `cmd && success || fail` over `if-then-else`.
+- **Naming**: Use `$(basename "$0")` in output.
+- **Functions**: Always define `usage()`.
+- **Comments**: DRY (Don't repeat code logic in comments).
