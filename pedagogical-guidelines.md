@@ -53,26 +53,26 @@ Recipe 패턴이 연속 3개 이상이면 재설계한다.
 
 | 딱지 | 영어명 | 하는 일 | 근거 |
 |---|---|---|---|
-| **`[채우기]`** | Generation | `???`나 빈 구조만 받고 핵심 코드를 스스로 작성 | Generation Effect (Slamecka & Graf, 1978) |
-| **`[해보기]`** | Discovery | 설명 없이 먼저 실행. 에러를 만난 뒤 원인을 찾음 | Productive Failure (Kapur, 2008) |
-| **`[맞히기]`** | Prediction | 코드를 실행하기 전에 출력을 예측하고, 실행 결과와 대조 | Prediction Effect (Liew & Howe, 1993) |
-| **`[엮기]`** | Synthesis | 앞 미션들을 합쳐 하나의 프로그램을 처음부터 작성. 힌트 없음 | Bloom's Taxonomy — Create 단계 (Anderson & Krathwohl, 2001) |
+| 채우기 | Generation | `???`나 빈 구조만 받고 핵심 코드를 스스로 작성 | Generation Effect (Slamecka & Graf, 1978) |
+| 해보기 | Discovery | 설명 없이 먼저 실행. 에러를 만난 뒤 원인을 찾음 | Productive Failure (Kapur, 2008) |
+| 맞히기 | Prediction | 코드를 실행하기 전에 출력을 예측하고, 실행 결과와 대조 | Prediction Effect (Liew & Howe, 1993) |
+| 엮기 | Synthesis | 앞 미션들을 합쳐 하나의 프로그램을 처음부터 작성. 힌트 없음 | Bloom's Taxonomy — Create 단계 (Anderson & Krathwohl, 2001) |
 
 #### Workbook에서 쓰는 법
 
-기존 `[미션 N]` 뒤에 딱지를 붙인다:
+딱지 뒤에 번호를 붙인다:
 
 ```
-### [미션 2-a] [해보기]
+[ ] **해보기** 2-a
 아래 코드를 실행해보세요.
 
-### [미션 2-b] [채우기]
+[ ] **채우기** 3-a
 에러를 해결한 뒤, ...
 
-### [미션 8-a] [맞히기]
+[ ] **맞히기** 8-a
 아래 corpus에서 BPE merge를 직접 해보세요.
 
-### [미션 9] [엮기]
+[ ] **엮기** 9-a
 아무것도 참고하지 말고, ...
 ```
 

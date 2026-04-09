@@ -28,7 +28,7 @@ This file provides guidance to the AI assistant when working with code in this r
 **MANDATORY**: Read [.ai/code-review-guidelines.md](.ai/code-review-guidelines.md) before reviewing any code.
 
 ## Workbook 교수 설계
-**MANDATORY**: Read [.ai/pedagogical-guidelines.md](.ai/pedagogical-guidelines.md) before creating or reviewing workbooks.
+**MANDATORY**: [.ai/workbook-creation-rules.md](.ai/workbook-creation-rules.md) before creating or reviewing workbooks.
 
 ## Shell Scripting
 **MANDATORY**: Read [.ai/shell-scripting-guidelines.md](.ai/shell-scripting-guidelines.md) before writing or modifying shell scripts.
