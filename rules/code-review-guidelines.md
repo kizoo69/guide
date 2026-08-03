@@ -1,3 +1,8 @@
+---
+trigger: always_on
+description: 코드 리뷰 기준
+---
+
 # Code Review Guidelines
 
 Always proactively analyze and suggest improvements based on the following checklist.

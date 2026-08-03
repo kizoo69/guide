@@ -1,3 +1,8 @@
+---
+trigger: always_on
+description: Java 프로젝트 기본 설정
+---
+
 # Java Project Defaults
 
 ## Core

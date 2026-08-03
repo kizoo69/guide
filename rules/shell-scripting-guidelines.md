@@ -1,3 +1,8 @@
+---
+trigger: always_on
+description: 셸 스크립트 작성 철학과 구현 패턴
+---
+
 # Shell Scripting & Coding Standards
 
 ## Core Philosophy

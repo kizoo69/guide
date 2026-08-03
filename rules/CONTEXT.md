@@ -1,3 +1,8 @@
+---
+trigger: always_on
+description: 모든 프로젝트에 적용되는 공통 작업 지침과 코딩 표준
+---
+
 # CONTEXT.md
 
 AI guidance for this repository.
@@ -14,8 +19,9 @@ AI guidance for this repository.
 - [Workflow & Planning](workflow-guidelines.md)
 - [Korean Docs](technical-writing-guidelines.md)
 - [Code Review](code-review-guidelines.md)
-- [Workbook Creation Rules](workbook-creation-rules.md)
 - [Shell Scripting](shell-scripting-guidelines.md)
+
+> 위 문서는 이 디렉토리가 규칙 폴더로 연결되어 자동 로드된다.
 
 ## Coding Standards
 

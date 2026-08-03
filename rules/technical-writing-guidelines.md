@@ -1,3 +1,8 @@
+---
+trigger: always_on
+description: 한국어 기술 문서 작성 규칙
+---
+
 ## Korean Technical Writing Guidelines
 
 When writing technical documentation in Korean for this site, follow these language conventions:
