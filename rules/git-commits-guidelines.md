@@ -14,8 +14,8 @@ description: git 커밋 메시지 작성 규칙과 커밋 워크플로
 
 ## Commit Workflow
 
-When a task is complete, commit and push all changes without being asked.
+When a task is complete, commit all changes. Push only after confirming with the user.
 
 1. `git status` to review all changed files.
 2. Group related files into logical commits (e.g., new content, deletions, updates each as separate commits).
-3. Push after all commits are done.
+3. Ask the user before pushing.
