@@ -5,7 +5,6 @@ This repository contains a collection of guidelines for software development and
 ## Guidelines Included
 
 - **[Code Review](./code-review-guidelines.md)**: Best practices for reviewing code.
-- **[Git Commits](./git-commits-guidelines.md)**: Standards for writing clear and effective commit messages.
 - **[Java Projects](./java-project-defaults.md)**: Default configurations and dependencies for new Java projects.
 - **[Korean Technical Writing](./technical-writing-guidelines.md)**: Rules and conventions for writing technical documents in Korean.
 

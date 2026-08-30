@@ -34,4 +34,4 @@ Always proactively analyze and suggest improvements based on the following check
 - [ ] **Naming**: do filenames use kebab-case?
 
 ## General
-- [ ] **Git**: Do commit messages follow the [.ai/git-commits-guidelines.md](git-commits-guidelines.md)?
+- [ ] **Git**: Do commit messages follow the tool's git commit conventions (imperative mood, no footers, no emoji)?
