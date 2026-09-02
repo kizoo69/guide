@@ -1,0 +1,14 @@
+{
+  "name": "kizoo-guide",
+  "description": "Shared standards that apply to any project",
+  "owner": {
+    "name": "kizoo"
+  },
+  "plugins": [
+    {
+      "name": "guide",
+      "source": "./",
+      "description": "Cross-project coding and writing standards"
+    }
+  ]
+}

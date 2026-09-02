@@ -1,9 +1,15 @@
 ---
-trigger: always_on
-description: 셸 스크립트 작성 철학과 구현 패턴
+name: shell-standards
+description: >
+  Read BEFORE writing, editing, or reviewing any shell script (sh, bash, zsh),
+  and before naming a script file, function, variable, or constant.
+  Covers output discipline (silence on success, detail on failure), usage()
+  functions, defensive checks, POSIX compliance, idempotency, safe overwrites,
+  comment discipline, and the Google Shell Style Guide naming rules.
+  Open it BEFORE the first line is written — a review after the fact is too late.
 ---
 
-# Shell Scripting & Coding Standards
+# Shell Scripting Standards
 
 ## Core Philosophy
 
@@ -18,6 +24,9 @@ description: 셸 스크립트 작성 철학과 구현 패턴
 3.  **Dynamic Naming**: Never hardcode the script name in output messages. Use `$(basename "$0")` to ensure consistency if the filename changes.
 4.  **Comments**: Apply DRY (Don't Repeat Yourself). Do not write comments that just repeat what the code clearly says.
 5.  **Standard Output**: Differentiate simple warnings from fatal errors.
+6.  **POSIX Compliance**: Avoid Bash-isms (`[[ ]]`, `==`) unless the shebang is explicitly `bash`.
+7.  **Idempotency**: A script must be safe to run repeatedly without side effects.
+8.  **Safe Overwrites**: Back up a file before overwriting it.
 
 ## Naming
 

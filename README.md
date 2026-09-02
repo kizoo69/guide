@@ -2,13 +2,17 @@
 
 This repository contains a collection of guidelines for software development and technical writing. The goal is to establish a clear, consistent, and high-quality standard for all projects.
 
-## Guidelines Included
+## Skills
 
-- **[Code Review](./code-review-guidelines.md)**: Best practices for reviewing code.
-- **[Java Projects](./java-project-defaults.md)**: Default configurations and dependencies for new Java projects.
-- **[Korean Technical Writing](./technical-writing-guidelines.md)**: Rules and conventions for writing technical documents in Korean.
+Loaded on demand, installed as the `guide` plugin.
 
-## For AI Assistants
+- **[Shell Standards](./skills/shell-standards/SKILL.md)**: Output discipline, implementation patterns, and naming for shell scripts.
 
-The file [CONTEXT.md](./CONTEXT.md) serves as the primary entry point for AI assistants, providing pointers to the relevant guidelines for a given task.
+## Always-on Rules
 
+- **[Java Projects](./rules/java-project-defaults.md)**: Default configurations and dependencies for new Java projects.
+- **[Korean Technical Writing](./rules/technical-writing-guidelines.md)**: Rules and conventions for writing technical documents in Korean.
+
+## Other
+
+- **[Pedagogical Guidelines](./pedagogical-guidelines.md)**, **[Workbook Creation Rules](./workbook-creation-rules.md)**

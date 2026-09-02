@@ -1,0 +1,8 @@
+{
+  "name": "guide",
+  "description": "Cross-project coding and writing standards, packaged as skills",
+  "version": "0.1.0",
+  "author": {
+    "name": "kizoo"
+  }
+}
