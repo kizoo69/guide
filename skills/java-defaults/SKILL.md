@@ -1,6 +1,10 @@
 ---
-trigger: always_on
-description: Java 프로젝트 기본 설정
+name: java-defaults
+description: >
+  Core defaults and conventions for Java projects. Covers Java 21 LTS,
+  Maven build, Google Java Style, standard dependencies (Lombok, SLF4J,
+  Jackson, Commons, Guava), and test-first practices (JUnit 5, Mockito).
+  Use when creating, configuring, or reviewing Java projects and code.
 ---
 
 # Java Project Defaults

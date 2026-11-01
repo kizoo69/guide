@@ -1,6 +1,12 @@
 ---
-trigger: always_on
-description: 한국어 기술 문서 작성 규칙
+name: technical-writing
+description: >
+  Guidelines and standards for Korean technical writing and documentation.
+  Covers English terminology usage over phonetic transliteration, plain Korean
+  over obscure Hanja/OOP jargon, writing style (active, concise, concrete,
+  evidence-based), and avoidance of emoticons or filler words.
+  Use whenever authoring, translating, or reviewing technical documents,
+  posts, comments, or explanations in Korean.
 ---
 
 # Korean Technical Writing Guidelines

@@ -1,6 +1,15 @@
+---
+name: workbook-authoring
+description: >
+  Guidelines and conventions for authoring, structuring, and reviewing workbook files
+  (workbook-*.md). Covers naming conventions, 4 pedagogical tags ([해보기], [맞히기],
+  [채우기], [엮기]), dialogue patterns (mentor-student), workbook independence,
+  and review checklists. Use whenever writing, editing, or auditing workbooks.
+---
+
 # Workbook 제작 실무 규칙
 
-이 문서는 `pedagogical-principles` 스킬(`.ai/skills/pedagogical-principles/SKILL.md`)의 교수 설계 원칙과 `.ai/rules/technical-writing-guidelines.md`의 기술 글쓰기 규칙을 `workbook-*.md` 작성에 구체화한 실무 지침이다.
+이 문서는 `pedagogical-principles` 스킬(`../pedagogical-principles/SKILL.md`)의 교수 설계 원칙과 `technical-writing` 스킬(`../technical-writing/SKILL.md`)의 기술 글쓰기 규칙을 `workbook-*.md` 작성에 구체화한 실무 지침이다.
 
 ## 1. 파일 이름
 
@@ -62,7 +71,7 @@
 
 ## 5. 코드 스타일 및 작성 원칙
 
-- 모든 코드 및 프로그래밍 용어는 `technical-writing-guidelines.md`에 따라 영문 원어를 쓴다 (예: `python`, `class`, `token`).
+- 모든 코드 및 프로그래밍 용어는 `technical-writing` 스킬에 따라 영문 원어를 쓴다 (예: `python`, `class`, `token`).
 - `???` placeholder를 사용할 때 답의 구조나 힌트를 과도하게 드러내지 않는다.
 
 ## 6. Workbook 독립성 (Independence)
@@ -85,5 +94,5 @@ Workbook을 제작하거나 수정한 뒤 아래 항목을 검증한다:
 - [ ] `[토론]` 섹션에 예측(`[맞히기]`)이나 표 채우기 등 능동적 학습 요소가 있는가?
 - [ ] 뒤로 갈수록 Scaffolding(도움닫기)이 줄어드는가?
 - [ ] 이전 workbook의 개념을 다시 상기하는 Spacing 요소가 있는가?
-- [ ] `technical-writing-guidelines.md`의 용어와 문체 규칙을 준수하는가?
+- [ ] `technical-writing` 스킬의 용어와 문체 규칙을 준수하는가?
 - [ ] 수련생이 외부 정답 코드 파일에 의존하지 않고 독립적으로 코드를 완성할 수 있는가?

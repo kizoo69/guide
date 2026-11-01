@@ -6,14 +6,8 @@ This repository contains a collection of guidelines for software development and
 
 Loaded on demand, installed as the `guide` plugin.
 
+- **[Java Defaults](./skills/java-defaults/SKILL.md)**: Default configurations, dependencies, and testing conventions for Java projects.
 - **[Pedagogical Principles](./skills/pedagogical-principles/SKILL.md)**: Core pedagogical principles for designing and reviewing educational materials.
 - **[Shell Standards](./skills/shell-standards/SKILL.md)**: Output discipline, implementation patterns, and naming for shell scripts.
-
-## Always-on Rules
-
-- **[Java Projects](./rules/java-project-defaults.md)**: Default configurations and dependencies for new Java projects.
-- **[Korean Technical Writing](./rules/technical-writing-guidelines.md)**: Rules and conventions for writing technical documents in Korean.
-
-## Other
-
-- **[Workbook Creation Rules](./workbook-creation-rules.md)**
+- **[Technical Writing](./skills/technical-writing/SKILL.md)**: Rules and conventions for technical writing and documentation in Korean.
+- **[Workbook Authoring](./skills/workbook-authoring/SKILL.md)**: Guidelines, dialogue structure, tags, and review checklist for workbook authoring.
