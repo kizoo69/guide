@@ -1,6 +1,6 @@
 # Workbook 제작 실무 규칙
 
-이 문서는 `.ai/pedagogical-guidelines.md`의 교수 설계 원칙과 `.ai/rules/technical-writing-guidelines.md`의 기술 글쓰기 규칙을 `workbook-*.md` 작성에 구체화한 실무 지침이다.
+이 문서는 `pedagogical-principles` 스킬(`.ai/skills/pedagogical-principles/SKILL.md`)의 교수 설계 원칙과 `.ai/rules/technical-writing-guidelines.md`의 기술 글쓰기 규칙을 `workbook-*.md` 작성에 구체화한 실무 지침이다.
 
 ## 1. 파일 이름
 

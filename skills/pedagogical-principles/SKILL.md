@@ -1,3 +1,13 @@
+---
+name: pedagogical-principles
+description: >
+  Apply core pedagogical principles when designing, authoring, or reviewing
+  any educational materials, courses, curricula, exercises, tutorials, or workbooks.
+  Covers Desired Difficulties (Bjork), Flipped Learning, Synthesis (Bloom's Create),
+  and Active Learning methods. Use whenever evaluating whether educational content
+  fosters true conceptual understanding rather than passive following.
+---
+
 # 교수 설계 원칙
 
 학습 콘텐츠나 과정을 설계하고 검토할 때 기준이 되는 상위 교육학 원칙이다. 매체나 형식(워크북, 강의, 슬라이드 등)과 무관하게 공통으로 적용한다.

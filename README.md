@@ -6,6 +6,7 @@ This repository contains a collection of guidelines for software development and
 
 Loaded on demand, installed as the `guide` plugin.
 
+- **[Pedagogical Principles](./skills/pedagogical-principles/SKILL.md)**: Core pedagogical principles for designing and reviewing educational materials.
 - **[Shell Standards](./skills/shell-standards/SKILL.md)**: Output discipline, implementation patterns, and naming for shell scripts.
 
 ## Always-on Rules
@@ -15,4 +16,4 @@ Loaded on demand, installed as the `guide` plugin.
 
 ## Other
 
-- **[Pedagogical Guidelines](./pedagogical-guidelines.md)**, **[Workbook Creation Rules](./workbook-creation-rules.md)**
+- **[Workbook Creation Rules](./workbook-creation-rules.md)**
