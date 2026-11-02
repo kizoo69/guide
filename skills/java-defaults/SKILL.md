@@ -9,6 +9,8 @@ description: >
 
 # Java Project Defaults
 
+이 문서는 `programming` 스킬(`../programming/SKILL.md`)의 범용 코딩 원칙을 Java 및 Maven 환경에 구체화한 기본 규약이다.
+
 ## Core
 - **Java version**: 21 (LTS)
 - **Build**: Maven

@@ -11,6 +11,8 @@ description: >
 
 # Shell Scripting Standards
 
+이 문서는 `programming` 스킬(`../programming/SKILL.md`)의 범용 코딩 원칙을 셸 스크립트(sh, bash, zsh) 환경에 구체화한 규약이다.
+
 ## Core Philosophy
 
 1.  **"No News is Good News"**: Scripts should generally remain silent on success. Output is reserved for when an action is required or an error occurs.

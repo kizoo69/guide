@@ -11,7 +11,8 @@ description: >
 
 # Korean Technical Writing Guidelines
 
-한국어로 기술 문서를 쓸 때 따르는 용어와 문장 규칙이다.
+한국어로 기술 문서를 쓸 때 따르는 소프트웨어·프로그래밍 전문 용어와 문서 작성 규칙이다.
+공통 글쓰기 규칙(쉬운 말, 능동태, 한자어·`~적`/이모지 지양 등)을 따르며, 기술 문서 작성 시 이 스킬의 지침을 얹는다.
 
 ## Terminology Standards
 
