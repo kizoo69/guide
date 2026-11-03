@@ -23,10 +23,11 @@ cd guide
 
 `install.sh` symlinks every skill into each harness it finds: `~/.claude/skills/` (Claude Code) and `~/.gemini/antigravity-cli/skills/` (Antigravity CLI). To link into another directory, pass it as an argument: `./install.sh <skills_dir>`.
 
-- Skills refer to each other by relative path, so all of them are linked together.
+- Skills refer to each other by relative path, so all of them are linked or none.
 - Links point into the clone. Edits apply without reinstalling (a new session may be needed); `git pull` is the update.
 - Run `./install.sh` again after moving the clone or adding a skill. It is safe to rerun and removes links left by deleted skills.
-- An existing entry with the same name is left alone and reported.
+- If another entry already holds a skill's name, nothing is linked into that directory. The entry is left alone and reported; move it and rerun.
+- If a link fails partway, the links made in that run are removed.
 
 ## Uninstall
 
