@@ -64,6 +64,20 @@ install_into() {
 		return 1
 	}
 	prune_dangling "${target_dir}"
+
+	conflicts=0
+	for skill_dir in "${SKILLS_DIR}"/*/; do
+		[ -f "${skill_dir}SKILL.md" ] || continue
+		origin="${skill_dir%/}"
+		target="${target_dir}/$(basename "${origin}")"
+		[ -L "${target}" ] && [ "$(readlink "${target}")" = "${origin}" ] && continue
+		if [ -e "${target}" ] || [ -L "${target}" ]; then
+			echo "Error: ${target} already exists and is not a link to ${origin}; aborting install" >&2
+			conflicts=1
+		fi
+	done
+	[ "${conflicts}" -eq 0 ] || return 1
+
 	status=0
 	for skill_dir in "${SKILLS_DIR}"/*/; do
 		[ -f "${skill_dir}SKILL.md" ] || continue
